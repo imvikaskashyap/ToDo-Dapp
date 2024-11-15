@@ -17,7 +17,7 @@ const AddToDo = async () => {
   useEffect(() => {
     const contract = getContract();
     crateTask()
-    contract.on("TaskCreated", (id, work, status) => {
+    contract.on("taskCreated", (id, work, status) => {
       getReward();
       getBalance();
       alert("Task Created");

@@ -1,3 +1,4 @@
+'use client'
 const ethers = require("ethers");
 const { TODO_ABI } = require("../../contracts/ABIs/todoList");
 const { TODO_CONTRACT_ADDRESS } = require("../../contracts/Address");
